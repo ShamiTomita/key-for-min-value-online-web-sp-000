@@ -7,4 +7,8 @@ def key_for_min_value(name_hash)
     array.push(value)
   end 
   array.each do |a, b|
+    if a < b 
+      array.reject(b)
+    if a > b 
+      array.reject(a)
 end
